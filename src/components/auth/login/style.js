@@ -29,11 +29,30 @@ export const useStyles = makeStyles(theme => ({
       paddingTop:"35%",
       fontSize:"4em"
     },
-    rightBox:{
-      backgroundColor:'purple',
-      alignItems:'center'
-      
-    }
+    right:{
+      display:'flex',
+      // backgroundColor:'green',
+      // alignItems:"center",
+      flexDirection:'column',
+      alignItems:'center',
+      marginTop:'20%',
+      paddingLeft:20,
+      paddingRight:20,
+    },
+  btnLogin:{
+    margin: theme.spacing(3, 0, 2),
+    padding:15,
+    fontSize:20,
+    fontWeight:500,
+    letterSpacing:5,
+    
+
+  },
+  chkbox:{
+    display:'flex',
+    alignSelf: 'flex-end',
+  }
+  
     
    
   }));
